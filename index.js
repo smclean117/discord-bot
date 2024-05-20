@@ -18,6 +18,7 @@ for (const file of commandFiles) {
 
 console.log(client.commands);
 
+
 const player = new Player(client);
 
 player.extractors.loadDefault().then(r => console.log('Extractors loaded successfully'));
